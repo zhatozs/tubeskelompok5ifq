@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.10.4/brython.js" integrity="sha512-Dr8IR/2fk/pBmngFLduWN5Ys/t7lcPxGgLCulHdTdgDrDRnGb+ANMxGXq+DKVN87jom+N3BrzzI476Pf98RReA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.10.4/brython_stdlib.js" integrity="sha512-kMRN6F4Yq4sNLbPG2lH3EO9n776JHHZub+UWogDxVjh9uTnoVo3wtN/rnQD4C4/AZtqI2zQdvdouGAAxOGwNeA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Kelompok 5</title>
+</head>
+<body onload="brython()">
+    <header>
+    <h1 style="background-color:dodgerblue; color: white; text-align: center;">Toko Fashion Kelompok 5</h1>
+    </header>
+    <div style="padding: 10%; background-color: aqua;">
+        <div style="padding-left: 35%;">
+            <div style="color: brown;">
+        <h3>List Harga :</h3>
+        <h3>Baju : Rp 30000</h3>
+        <h3>Celana : Rp 25000</h3>
+        <h3>Dasi : Rp 10000</h3>
+        <h3>Topi : Rp 15000</h3>
+        <h3>Jaket : Rp 50000</h3>
+    </div>
+        <h2>Masukkan Jumlah Pembelian :</h2>
+            
+
+    <select id="select" style="text-align: center;">
+        <option>Baju</option>
+        <option>Celana</option>
+        <option>Dasi</option>
+        <option>Topi</option>
+        <option>Jaket</option>
+    </select>
+
+    <input type="text" id="input">
+    <button id="btn">Total Harga</button>
+    <div id="output"></div>
+        </div>
+    </div>
+
+    <div>
+        <img src="img/baju1.jpg" alt="baju" style="width: 400px; height: 400px;">
+        <img src="img/celana2.jpg" alt="celana" style="width: 400px; height: 400px;">
+        <img src="img/topi3.jpg" alt="topi" style="width: 400px; height: 400px;">
+    </div>
+    <h1 style="background-color:dodgerblue; color: white; text-align: center;">Anggota</h1>
+    <div style="padding: 10%; background-color: brown;">
+        <h3 style="text-align: center; color: white;">Zhafran Siswanto (20102213)</h3>
+        <h3 style="text-align: center; color: white;">Yerico Rosanta (20102204)</h3>
+        <h3 style="text-align: center; color: white;">Aziz Fandika Pamungkas (20102293)</h3>
+        <h3 style="text-align: center; color: white;">Jaoza Haqquesda Daffa (20102247)</h3>
+        
+    </div>
+    <script type="text/python" src="app.py">
+    </script>
+</body>
+</html>
